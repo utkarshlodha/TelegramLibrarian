@@ -115,9 +115,12 @@
 
 @layer base {
   * {
-    @apply border-border ring-1 ring-opacity-50;
+    @apply border-border;
   }
   body {
     @apply bg-background text-foreground;
+  }
+  button, a, input, select, textarea {
+    @apply focus:ring-2 focus:ring-opacity-50 focus:outline-none;
   }
 }
