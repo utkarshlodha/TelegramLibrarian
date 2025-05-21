@@ -115,7 +115,7 @@
 
 @layer base {
   * {
-    @apply border-border ring-ring/50;
+    @apply border-border ring-1 ring-opacity-50;
   }
   body {
     @apply bg-background text-foreground;

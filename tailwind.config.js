@@ -47,6 +47,9 @@ module.exports = {
         md: 'calc(var(--radius) - 2px)',
         sm: 'calc(var(--radius) - 4px)',
       },
+      ringColor: {
+        DEFAULT: 'var(--color-ring)',
+      },
     },
   },
   plugins: [],
