@@ -119,8 +119,4 @@
   body {
     @apply bg-background text-foreground;
   }
-  :root {
-    --font-sans: var(--font-inter);
-    --font-mono: var(--font-inter);
-  }
 }

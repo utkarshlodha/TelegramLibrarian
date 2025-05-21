@@ -4,7 +4,9 @@ import "./globals.css";
 
 const inter = Inter({
   subsets: ["latin"],
+  display: "swap",
   variable: "--font-inter",
+  preload: true,
 });
 
 export const metadata: Metadata = {
@@ -18,8 +20,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${inter.variable} antialiased`}>
+    <html lang="en" className={inter.className}>
+      <body className="antialiased">
         {children}
       </body>
     </html>
